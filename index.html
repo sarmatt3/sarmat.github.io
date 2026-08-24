@@ -3,187 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Мой личный сайт</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f7fb;
-            color: #222;
-            line-height: 1.6;
-        }
-
-        /* Шапка */
-        header {
-            background: #222;
-            color: white;
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #4da3ff;
-        }
-
-        /* Главный экран */
-        .hero {
-            min-height: 85vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(135deg, #eaf2ff, #ffffff);
-        }
-
-        .hero h1 {
-            font-size: 52px;
-            margin-bottom: 15px;
-        }
-
-        .hero p {
-            font-size: 20px;
-            max-width: 650px;
-            margin: 0 auto 25px;
-            color: #555;
-        }
-
-        .button {
-            display: inline-block;
-            background: #0066cc;
-            color: white;
-            text-decoration: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-
-        .button:hover {
-            background: #004d99;
-            transform: translateY(-2px);
-        }
-
-        /* Секции */
-        section {
-            padding: 80px 10%;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 32px;
-            margin-bottom: 40px;
-        }
-
-        /* Обо мне */
-        .about {
-            max-width: 800px;
-            margin: auto;
-            text-align: center;
-            font-size: 18px;
-        }
-
-        /* Навыки */
-        .skills-list {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .skill {
-            background: white;
-            padding: 15px 25px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-        }
-
-        /* Проекты */
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-        }
-
-        .project {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-        }
-
-        .project h3 {
-            margin-bottom: 10px;
-        }
-
-        /* Контакты */
-        .contacts {
-            text-align: center;
-        }
-
-        .contacts p {
-            margin: 10px 0;
-            font-size: 18px;
-        }
-
-        .contacts a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        /* Подвал */
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        /* Адаптация для телефона */
-        @media (max-width: 700px) {
-            header {
-                flex-direction: column;
-                gap: 15px;
-            }
-
-            nav a {
-                margin: 0 8px;
-            }
-
-            .hero h1 {
-                font-size: 38px;
-            }
-
-            section {
-                padding: 60px 6%;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -203,7 +26,7 @@
         <!-- Главный экран -->
         <section class="hero">
             <div>
-                <h1>Привет! Я [Ваше имя]</h1>
+                <h1>Привет! Я Сармат</h1>
 
                 <p>
                     Добро пожаловать на мой личный сайт.
@@ -223,7 +46,7 @@
 
             <div class="about">
                 <p>
-                    Меня зовут [Ваше имя]. Я интересуюсь веб-разработкой,
+                    Меня зовут Сармат. Я интересуюсь веб-разработкой,
                     технологиями и созданием современных сайтов.
                 </p>
 
@@ -244,6 +67,8 @@
                 <div class="skill">HTML</div>
                 <div class="skill">CSS</div>
                 <div class="skill">JavaScript</div>
+                <div class="skill">PHP</div>
+                <div class="skill">SQL</div>
                 <div class="skill">Python</div>
                 <div class="skill">Веб-дизайн</div>
             </div>
@@ -284,13 +109,13 @@
             <div class="contacts">
                 <p>
                     📧 Email:
-                    <a href="mailto:example@email.com">
-                        example@email.com
+                    <a href="mailto:sarmattoguzov7@gmail.com">
+                        sarmattoguzov7@gmail.com
                     </a>
                 </p>
 
                 <p>
-                    📱 Телефон: +372 XXX XXXX
+                    📱 Телефон: +7 (993) 182-72-15
                 </p>
 
                 <p>
@@ -304,7 +129,7 @@
     </main>
 
     <footer>
-        <p>© 2026 Моё имя. Все права защищены.</p>
+        <p>© 2026 Сармат. Все права защищены.</p>
     </footer>
 
 </body>
