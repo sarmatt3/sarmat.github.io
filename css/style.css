@@ -138,6 +138,17 @@ section {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
+.project a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+span.material-symbols-outlined{
+    font-size: 18px;
+    
+}
+
 .project h3 {
     margin-bottom: 10px;
 }
